@@ -6,7 +6,7 @@ import pandas as pd
 import shap
 
 # Load model
-model = joblib.load('E:/RS/糖网/XGB/DR.pkl')
+model = joblib.load('DR.pkl')
 
 # Define features with units
 features = [
